@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/exception_handling
+    username: postgres
+    password: "***"
+server:
+  port: 8064
